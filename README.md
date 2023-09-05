@@ -26,3 +26,5 @@ Currently, two official plugins are available:
 ![Capture3](https://github.com/dipamitro/React-All-Project/assets/99094848/b23d86c6-109c-4cf1-956d-25b8b677bf02)
 
 ![Capture4](https://github.com/dipamitro/React-All-Project/assets/99094848/b0612b72-a4fe-4b3b-b673-b3e0540c7666)
+
+![Capture5](https://github.com/dipamitro/React-All-Project/assets/99094848/d93a83c3-99b9-4c3e-9510-9773086a4de7)

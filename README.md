@@ -12,8 +12,10 @@ Currently, two official plugins are available:
 
 - Username:admin@mail.com
 - Password:Admin@123
-- 
-- ![Capture0](https://github.com/dipamitro/React-All-Project/assets/99094848/e882e290-cdd8-4666-b3a3-f3e651bd0120)
+-
+![Capture0](https://github.com/dipamitro/React-All-Project/assets/99094848/e882e290-cdd8-4666-b3a3-f3e651bd0120)
+
+![Capture00](https://github.com/dipamitro/React-All-Project/assets/99094848/4002d544-8b29-4d7e-bd08-fffbd162c102)
 
 ![Capture](https://github.com/dipamitro/React-All-Project/assets/99094848/c3092518-e442-4a53-abe2-350be81f4407)
 

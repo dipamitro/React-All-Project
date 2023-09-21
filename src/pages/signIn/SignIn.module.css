@@ -1,0 +1,25 @@
+.logo-item
+{
+    height: 99px;
+    width: 208px;
+    margin: 22px;
+    border: 2px solid white;
+   
+}
+.hedding1clr{
+    color: #fff;
+    text-align: center;
+
+}
+a {
+    display: flex;
+    align-items: center;
+    color: #ff9000;
+    text-decoration: none;
+
+}
+ a:hover { 
+opacity: .2;   
+ }
+
+   

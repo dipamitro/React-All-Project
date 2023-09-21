@@ -76,3 +76,18 @@ Form.Control{
   color: #ff9000 ;
   text-decoration: none;
 }
+.formClr {
+color: white !important;
+background-color: #26242c !important;
+border:1px solid #26242c !important;
+}
+.formClr:focus {
+  color: white !important;
+  background-color:  #312e38 !important;
+  border-color:  #312e38 !important;
+  outline: 0;
+  box-shadow: 0 0 0 .1rem rgba(5, 43, 101, 0.25);
+}
+.formClr::placeholder {
+  color: #5a4b7c !important; 
+}

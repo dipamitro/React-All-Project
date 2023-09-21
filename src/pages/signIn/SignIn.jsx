@@ -35,7 +35,7 @@ function SignIn() {
           <Form onSubmit={handleSubmit}>
             <h1 className={classes["hedding1clr"]}>Please sign in</h1>
             <Form.Group controlId="email" className="m-3">
-              <Form.Control
+              <Form.Control  className={"formClr"}
                 type="email"
                 name="email"
                 placeholder="E-mail"
@@ -46,7 +46,7 @@ function SignIn() {
             </Form.Group>
 
             <Form.Group className={"clrfill m-3"} controlId="password">
-              <Form.Control
+              <Form.Control  className={"formClr"}
                 type="password"
                 name="password"
                 placeholder="Password"

@@ -6,21 +6,21 @@ import { Link, NavLink } from "react-router-dom";
 import logoImg from "../../../assets/logo.png";
 import SignUpLogo from "../../../assets/sign-in-background.png";
 function SignUp() {
-  const [formData, setFormData] = useState({
+  const [formDataa, setFormDataa] = useState({
     name: "",
     email: "",
     password: "",
   });
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormDataa({
+      ...formDataa,
       [name]: value,
     });
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    console.log(formDataa);
   };
   return (
     <div className="container-fluid backgroundclr ">
@@ -44,32 +44,32 @@ function SignUp() {
             <a className="m-1" href="">I'm a Barber</a>
           </div>
             <Form.Group controlId="name" className="m-3">
-              <Form.Control
+              <Form.Control className={"formClr"}
                 type="name"
                 name="email"
                 placeholder="Name"
-                value={formData.name}
+                value={formDataa.name}
                 onChange={handleChange}
                 required
               />
             </Form.Group>
             <Form.Group controlId="email" className="m-3">
-              <Form.Control
+              <Form.Control  className={"formClr"}
                 type="email"
                 name="email"
                 placeholder="E-mail"
-                value={formData.email}
+                value={formDataa.email}
                 onChange={handleChange}
                 required
               />
             </Form.Group>
 
             <Form.Group className={"clrfill m-3"} controlId="password">
-              <Form.Control
+              <Form.Control  className={"formClr"}
                 type="password"
                 name="password"
                 placeholder="Password"
-                value={formData.password}
+                value={formDataa.password}
                 onChange={handleChange}
                 required
               />

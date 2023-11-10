@@ -1,50 +1,36 @@
 import React from 'react'
-import './Food.css'
+import Grid from '@mui/material/Grid';
 function Food() {
   return (
     <div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {/* 4th */}
-<section title="Explore Bangladesh" className="mui-style-zwgclb">
-  <div className="mui-style-otbuk8">
-    <div className="MuiStack-root mui-style-1jea4dc">
+<section title="Explore Bangladesh" className="round-zwgclb">
+  <div className="round-otbuk8">
+    <div className="MuiStack-root round-1jea4dc">
       <div
-        className="MuiBox-root mui-style-1crpi21"
+        className="fst round-1crpi21"
         title="Explore Bangladesh"
         description="Prepare to experience Bangladesh's rich culture and explore the majestic beauties of Cox’s Bazar, Sylhet, Bandarban, Sajek Valley, Rangamati etc. Plan your trip now!"
       >
         <div
-          className="MuiBox-root mui-style-1rmcaoa"
+          className="fst round-1rmcaoa"
           title="Explore Bangladesh"
           description="Prepare to experience Bangladesh's rich culture and explore the majestic beauties of Cox’s Bazar, Sylhet, Bandarban, Sajek Valley, Rangamati etc. Plan your trip now!"
         >
-          <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+          <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
             Explore Bangladesh
           </h2>
-          <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+          <p className="tripfst tripsec round-1swmuhe">
             Prepare to experience Bangladesh's rich culture and explore the
             majestic beauties of Cox’s Bazar, Sylhet, Bandarban, Sajek Valley,
             Rangamati etc. Plan your trip now!
           </p>
         </div>
       </div>
-      <div className="MuiBox-root mui-style-epvm6" />
+      <div className="fst round-epvm6" />
     </div>
-    <div className="MuiBox-root mui-style-43wohy">
+    <div className="fst round-43wohy">
       <div className="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
         <div
           className="swiper-wrapper"
@@ -57,9 +43,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/_next/image?url=https%3A%2F%….com%2Fpromotion%2FCox%2527s_Bazar.jpg&w=384&q=75"
+              href="#/_next/image?url=https%3A%2F%….com%2Fpromotion%2FCox%2527s_Bazar.jpg&w=384&q=75"
             >
-              <div className="MuiBox-root mui-style-lxguk4" title="Cox's Bazar">
+              <div className="fst round-lxguk4" title="Cox's Bazar">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -81,15 +67,15 @@ function Food() {
                 
                   src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fpromotion%2Ftanveer-prachurjo-BsHCalALiMw-unsplash-min.jpg&w=384&q=75"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Cox's Bazar
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     97 Hotels Available
                   </p>
                 </div>
@@ -102,7 +88,7 @@ function Food() {
             style={{ marginRight: 20 }}
           >
             <a target="_blank" href="#">
-              <div className="MuiBox-root mui-style-lxguk4" title="Sylhet">
+              <div className="fst round-lxguk4" title="Sylhet">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -120,15 +106,15 @@ function Food() {
                     color: "transparent"
                   }}
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Sylhet
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     44 Hotels Available
                   </p>
                 </div>
@@ -142,9 +128,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Chittagong&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R823&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Chittagong&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R823&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-lxguk4" title="Chittagong">
+              <div className="fst round-lxguk4" title="Chittagong">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -166,15 +152,15 @@ function Food() {
                   
                   src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fpromotion%2FSylhet.jpg&w=384&q=75"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Chittagong
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     36 Hotels Available
                   </p>
                 </div>
@@ -188,9 +174,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kuakata&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=RSTHC3c86504188f14a0&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kuakata&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=RSTHC3c86504188f14a0&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-lxguk4" title="Kuakata">
+              <div className="fst round-lxguk4" title="Kuakata">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -212,15 +198,15 @@ function Food() {
               
                   src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fpromotion%2FChittagong.jpg&w=384&q=75"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Kuakata
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     0 Hotels Available
                   </p>
                 </div>
@@ -246,45 +232,45 @@ function Food() {
   </div>
 </section>
 {/* 5th */}
-<section title="Search Top Airlines" className="mui-style-18meal7">
-  <div className="mui-style-otbuk8">
-    <div className="MuiStack-root mui-style-1jea4dc">
+<section title="Search Top Airlines" className="round-18meal7">
+  <div className="round-otbuk8">
+    <div className="MuiStack-root round-1jea4dc">
       <div
-        className="MuiBox-root mui-style-1b3yz9y"
+        className="fst round-1b3yz9y"
         align="center"
         bgcolor="#F5F7FA"
         title="Search Top Airlines"
         description="ShareTrip's user-friendly platform connects you to top airlines instantly. Enjoy a comfortable and hassle-free journey on any destination and get tickets of top airlines easily"
       >
         <div
-          className="MuiBox-root mui-style-1rmcaoa"
+          className="fst round-1rmcaoa"
           align="center"
           bgcolor="#F5F7FA"
           title="Search Top Airlines"
           description="ShareTrip's user-friendly platform connects you to top airlines instantly. Enjoy a comfortable and hassle-free journey on any destination and get tickets of top airlines easily"
         >
-          <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+          <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
             Search Top Airlines
           </h2>
-          <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+          <p className="tripfst tripsec round-1swmuhe">
             ShareTrip's user-friendly platform connects you to top airlines
             instantly. Enjoy a comfortable and hassle-free journey on any
             destination and get tickets of top airlines easily
           </p>
         </div>
       </div>
-      <div className="MuiBox-root mui-style-epvm6" />
+      <div className="fst round-epvm6" />
     </div>
-    <div className="MuiBox-root mui-style-1yyyhji">
-      <div className="MuiGrid-root MuiGrid-container mui-style-1d3bbye">
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+    <div className="fst round-1yyyhji">
+      <div className="mild MuiGrid-container round-1d3bbye">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Biman Bangladesh Airlines"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/biman-bangladesh-airlines"
+              className="round-hx8sk2"
+              href="#/airline/biman-bangladesh-airlines"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Biman Bangladesh Airlines"
                 loading="lazy"
@@ -297,13 +283,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FBG.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Biman Bangladesh Airlines
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -347,14 +333,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="US-Bangla Airlines"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/us-bangla-airlines"
+              className="round-hx8sk2"
+              href="#/airline/us-bangla-airlines"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="US-Bangla Airlines"
                 loading="lazy"
@@ -367,13 +353,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FBS.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 US-Bangla Airlines
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -417,14 +403,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="NOVOAIR"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/novoair"
+              className="round-hx8sk2"
+              href="#/airline/novoair"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="NOVOAIR"
                 loading="lazy"
@@ -437,13 +423,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FVQ.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 NOVOAIR
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -487,14 +473,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Air Astra"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/air-astra"
+              className="round-hx8sk2"
+              href="#/airline/air-astra"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Air Astra"
                 loading="lazy"
@@ -507,13 +493,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2F2A.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Air Astra
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -557,14 +543,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Emirates"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/emirates"
+              className="round-hx8sk2"
+              href="#/airline/emirates"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Emirates"
                 loading="lazy"
@@ -577,13 +563,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FEK.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Emirates
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -627,14 +613,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Singapore Airlines"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/singapore-airlines"
+              className="round-hx8sk2"
+              href="#/airline/singapore-airlines"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Singapore Airlines"
                 loading="lazy"
@@ -647,13 +633,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FSQ.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Singapore Airlines
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -697,14 +683,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Turkish Airlines"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/turkish-airlines"
+              className="round-hx8sk2"
+              href="#/airline/turkish-airlines"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Turkish Airlines"
                 loading="lazy"
@@ -716,13 +702,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FTK.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Turkish Airlines
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -766,14 +752,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Qatar Airways"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/qatar-airways"
+              className="round-hx8sk2"
+              href="#/airline/qatar-airways"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Qatar Airways"
                 loading="lazy"
@@ -786,13 +772,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FQR.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Qatar Airways
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -836,14 +822,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Malaysia Airlines"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/malaysia-airlines"
+              className="round-hx8sk2"
+              href="#/airline/malaysia-airlines"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Malaysia Airlines"
                 loading="lazy"
@@ -856,13 +842,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FMH.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Malaysia Airlines
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -906,14 +892,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Vistara"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/vistara"
+              className="round-hx8sk2"
+              href="#/airline/vistara"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Vistara"
                 loading="lazy"
@@ -926,13 +912,13 @@ function Food() {
                  src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FUK.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Vistara
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -976,14 +962,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Etihad Airways"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/etihad-airways"
+              className="round-hx8sk2"
+              href="#/airline/etihad-airways"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Etihad Airways"
                 loading="lazy"
@@ -997,13 +983,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FEY.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Etihad Airways
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -1047,14 +1033,14 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3 mui-style-1clgd2d">
-          <div className="MuiBox-root mui-style-fmi8br">
+        <div className="mild item col-12 col-6-sm col-md-6 col-lg-3 col-xl-3 round-1clgd2d">
+          <div className="fst round-fmi8br">
             <a
               title="Cathay Pacific Airways"
-              className="mui-style-hx8sk2"
-              href="https://sharetrip.net/airline/cathay-pacific-airways"
+              className="round-hx8sk2"
+              href="#/airline/cathay-pacific-airways"
             />
-            <div className="MuiBox-root mui-style-1oci4k6">
+            <div className="fst round-1oci4k6">
               <img
                 alt="Cathay Pacific Airways"
                 loading="lazy"
@@ -1069,13 +1055,13 @@ function Food() {
                 src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fairlines-logo%2FCX.png&w=96&q=75"
               />
               <p
-                className="MuiTypography-root MuiTypography-body1 mui-style-z5om8b"
+                className="tripfst tripsec round-z5om8b"
                 fw="medium"
               >
                 Cathay Pacific Airways
               </p>
             </div>
-            <div className="MuiBox-root mui-style-199ywyt">
+            <div className="fst round-199ywyt">
               <svg
                 width={24}
                 height={24}
@@ -1125,34 +1111,34 @@ function Food() {
 </section>
 
 {/* 6th */}
-<section title="Most Popular Destinations" className="mui-style-zwgclb">
-  <div className="mui-style-otbuk8">
-    <div className="MuiStack-root mui-style-1jea4dc">
+<section title="Most Popular Destinations" className="round-zwgclb">
+  <div className="round-otbuk8">
+    <div className="MuiStack-root round-1jea4dc">
       <div
-        className="MuiBox-root mui-style-1b3yz9y"
+        className="fst round-1b3yz9y"
         title="Most Popular Destinations"
         description="Expand your travel horizons with new facets! Explore the world by choosing your ideal travel destinations in Asia, Europe, America, Australia and more with ShareTrip."
         align="center"
       >
         <div
-          className="MuiBox-root mui-style-1rmcaoa"
+          className="fst round-1rmcaoa"
           title="Most Popular Destinations"
           description="Expand your travel horizons with new facets! Explore the world by choosing your ideal travel destinations in Asia, Europe, America, Australia and more with ShareTrip."
           align="center"
         >
-          <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+          <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
             Most Popular Destinations
           </h2>
-          <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+          <p className="tripfst tripsec round-1swmuhe">
             Expand your travel horizons with new facets! Explore the world by
             choosing your ideal travel destinations in Asia, Europe, America,
             Australia and more with ShareTrip.
           </p>
         </div>
       </div>
-      <div className="MuiBox-root mui-style-epvm6" />
+      <div className="fst round-epvm6" />
     </div>
-    <div className="MuiBox-root mui-style-10h9qpx">
+    <div className="fst round-10h9qpx">
       <div className="swiper swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress">
         <div
           className="swiper-wrapper"
@@ -1174,9 +1160,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Bangkok&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R604&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Bangkok&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R604&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Bangkok">
+              <div className="fst round-9vstfn" title="Bangkok">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1198,15 +1184,15 @@ function Food() {
                  
                   src="./public/Bangkok.jpeg"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Bangkok
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     4,351 Hotels Available
                   </p>
                 </div>
@@ -1233,9 +1219,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Singapore&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R3168&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Singapore&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R3168&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Singapore">
+              <div className="fst round-9vstfn" title="Singapore">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1257,15 +1243,15 @@ function Food() {
                   
                   src="./public/Singapore.jpeg"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Singapore
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     813 Hotels Available
                   </p>
                 </div>
@@ -1292,10 +1278,10 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kuala%20Lumpur&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R1951&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kuala%20Lumpur&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R1951&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
               <div
-                className="MuiBox-root mui-style-9vstfn"
+                className="fst round-9vstfn"
                 title="Kuala Lumpur"
               >
                 <img
@@ -1319,15 +1305,15 @@ function Food() {
                  
                   src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fpromotion%2FKuala_Lumpur.jpg&w=1920&q=75"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Kuala Lumpur
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     2,464 Hotels Available
                   </p>
                 </div>
@@ -1354,9 +1340,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Maafushi&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R6058797&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Maafushi&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R6058797&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Maafushi">
+              <div className="fst round-9vstfn" title="Maafushi">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1378,15 +1364,15 @@ function Food() {
                 
                   src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fpromotion%2FMaafushi.jpg&w=1920&q=75"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Maafushi
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     36 Hotels Available
                   </p>
                 </div>
@@ -1413,9 +1399,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Dubai&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R6053839&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Dubai&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R6053839&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Dubai">
+              <div className="fst round-9vstfn" title="Dubai">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1437,15 +1423,15 @@ function Food() {
                   
                   src="https://sharetrip.net/_next/image?url=https%3A%2F%2Ftbbd-flight.s3.ap-southeast-1.amazonaws.com%2Fpromotion%2FDubai.jpg&w=1920&q=75"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Dubai
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     2,365 Hotels Available
                   </p>
                 </div>
@@ -1472,9 +1458,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kolkata&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R792&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kolkata&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R792&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Kolkata">
+              <div className="fst round-9vstfn" title="Kolkata">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1496,15 +1482,15 @@ function Food() {
                 
                   src="./public/Kolkata.jpeg"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Kolkata
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     1,319 Hotels Available
                   </p>
                 </div>
@@ -1531,9 +1517,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Chennai&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R2196&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Chennai&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R2196&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Chennai">
+              <div className="fst round-9vstfn" title="Chennai">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1555,15 +1541,15 @@ function Food() {
                 
                   src="./public/Chennai.jpeg"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Chennai
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     1,497 Hotels Available
                   </p>
                 </div>
@@ -1590,9 +1576,9 @@ function Food() {
           >
             <a
               target="_blank"
-              href="https://sharetrip.net/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kathmandu&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R1938&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
+              href="#/hotel-search?checkin=2023-11-15&checkout=2023-11-18&cityName=Kathmandu&currency=BDT&limit=10&nationality=bd&offset=0&propertyCode=R1938&rooms=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D"
             >
-              <div className="MuiBox-root mui-style-9vstfn" title="Kathmandu">
+              <div className="fst round-9vstfn" title="Kathmandu">
                 <img
                   alt="card-image"
                   loading="lazy"
@@ -1614,15 +1600,15 @@ function Food() {
                
                   src="./public/Kathamandu.jpeg"
                 />
-                <div className="MuiBox-root mui-style-1tyhrx3" />
-                <div className="st-image-card__card_details MuiBox-root mui-style-a34mib">
+                <div className="fst round-1tyhrx3" />
+                <div className="st-image-card__card_details fst round-a34mib">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-sq479"
+                    className="tripfst tripsec round-sq479"
                     fw="semiBold"
                   >
                     Kathmandu
                   </p>
-                  <p className="MuiTypography-root MuiTypography-body1 mui-style-1mmzlec">
+                  <p className="tripfst tripsec round-1mmzlec">
                     1,152 Hotels Available
                   </p>
                 </div>
@@ -1713,34 +1699,34 @@ function Food() {
 </section>
 
   {/* 7th */}
-  <section title="Best Hotels for Your Next Trip" className="mui-style-18meal7">
-    <div className="mui-style-otbuk8">
-      <div className="MuiStack-root mui-style-1jea4dc">
+  <section title="Best Hotels for Your Next Trip" className="round-18meal7">
+    <div className="round-otbuk8">
+      <div className="MuiStack-root round-1jea4dc">
         <div
-          className="MuiBox-root mui-style-1crpi21"
+          className="fst round-1crpi21"
           title="Best Hotels for Your Next Trip"
           description="Luxurious or budget-friendly hotels, villas or resorts, browse accommodations at ShareTrip that meet the need. Book Long-term or short-term accommodation from our hotel deals"
           bgcolor="#F5F7FA"
         >
           <div
-            className="MuiBox-root mui-style-1rmcaoa"
+            className="fst round-1rmcaoa"
             title="Best Hotels for Your Next Trip"
             description="Luxurious or budget-friendly hotels, villas or resorts, browse accommodations at ShareTrip that meet the need. Book Long-term or short-term accommodation from our hotel deals"
             bgcolor="#F5F7FA"
           >
-            <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+            <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
               Best Hotels for Your Next Trip
             </h2>
-            <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+            <p className="tripfst tripsec round-1swmuhe">
               Luxurious or budget-friendly hotels, villas or resorts, browse
               accommodations at ShareTrip that meet the need. Book Long-term or
               short-term accommodation from our hotel deals
             </p>
           </div>
         </div>
-        <div className="MuiBox-root mui-style-epvm6" />
+        <div className="fst round-epvm6" />
       </div>
-      <div className="MuiBox-root mui-style-scis41">
+      <div className="fst round-scis41">
         <div className="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
           <div
             className="swiper-wrapper"
@@ -1758,13 +1744,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/sea-pearl-beach-resort-and-spa-coxs-bazar/HSTHC6f85bbc4edb74a4ca9f69b18aa8e02e7"
+                href="#/hotel-deals/sea-pearl-beach-resort-and-spa-coxs-bazar/HSTHC6f85bbc4edb74a4ca9f69b18aa8e02e7"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Sea Pearl Beach Resort & Spa Cox's Bazar"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -1786,14 +1772,14 @@ function Food() {
                       src="./public/agoda-2564409-60592569-839740.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Sea Pearl Beach Resort &amp; Spa Cox's Bazar
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -1807,12 +1793,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (431 reviews)
                       </p>
                     </div>
@@ -1828,13 +1814,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/bhawal-resort-and-spa/HSTHC78827502770045d89677ddd4fc739577"
+                href="#/hotel-deals/bhawal-resort-and-spa/HSTHC78827502770045d89677ddd4fc739577"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Bhawal Resort & Spa"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -1856,14 +1842,14 @@ function Food() {
                       src="./public/bhawal-resort-spa-20210907174024.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Bhawal Resort &amp; Spa
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -1877,12 +1863,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (264 reviews)
                       </p>
                     </div>
@@ -1898,13 +1884,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/-grand-sylhet-hotel-and-resort/HSTHC664f64946adb4e7bbf36a06e42b74de1"
+                href="#/hotel-deals/-grand-sylhet-hotel-and-resort/HSTHC664f64946adb4e7bbf36a06e42b74de1"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title=" Grand Sylhet Hotel & Resort"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -1926,15 +1912,15 @@ function Food() {
                       src="./public/267736179_149939317369872_2872125975221274736_n.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       {" "}
                       Grand Sylhet Hotel &amp; Resort
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -1948,12 +1934,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (159 reviews)
                       </p>
                     </div>
@@ -1969,13 +1955,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/sayeman-beach-resort/HSTHCf4c57d3887974533b7a4ac5ada8dd453"
+                href="#/hotel-deals/sayeman-beach-resort/HSTHCf4c57d3887974533b7a4ac5ada8dd453"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Sayeman Beach Resort"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -1997,14 +1983,14 @@ function Food() {
                       src="./public/sayeman_-1.png"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Sayeman Beach Resort
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2018,12 +2004,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (453 reviews)
                       </p>
                     </div>
@@ -2039,13 +2025,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/seagull-hotels-ltd/HSTHCbf614d5d3b894165a354bb817bcb4156"
+                href="#/hotel-deals/seagull-hotels-ltd/HSTHCbf614d5d3b894165a354bb817bcb4156"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Seagull Hotels Ltd."
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2067,14 +2053,14 @@ function Food() {
                       src="./public/rsdtkfyguih.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Seagull Hotels Ltd.
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2088,12 +2074,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (335 reviews)
                       </p>
                     </div>
@@ -2109,13 +2095,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/best-western-heritage/HSTHCbdbe9c2477d74ea199dd56b11dc267be"
+                href="#/hotel-deals/best-western-heritage/HSTHCbdbe9c2477d74ea199dd56b11dc267be"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Best Western Heritage"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2137,14 +2123,14 @@ function Food() {
                       src="./public/best-western-plus-heritage.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Best Western Heritage
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2158,12 +2144,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (288 reviews)
                       </p>
                     </div>
@@ -2179,13 +2165,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/grand-sultan-tea-resort-and-golf/HSTHC79c254bc54f547cfb0f0bec47868d680"
+                href="#/hotel-deals/grand-sultan-tea-resort-and-golf/HSTHC79c254bc54f547cfb0f0bec47868d680"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Grand Sultan Tea Resort & Golf"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2207,14 +2193,14 @@ function Food() {
                       src="./public/1.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Grand Sultan Tea Resort &amp; Golf
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2228,12 +2214,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (378 reviews)
                       </p>
                     </div>
@@ -2249,13 +2235,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/ocean-paradise-hotel-and-resort/HSTHC4f5c2a854c294e38b11ad431b06e2c24"
+                href="#/hotel-deals/ocean-paradise-hotel-and-resort/HSTHC4f5c2a854c294e38b11ad431b06e2c24"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Ocean Paradise Hotel & Resort"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2277,14 +2263,14 @@ function Food() {
                       src="./public/030420190232061855c7cf0965ad8a.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Ocean Paradise Hotel &amp; Resort
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2298,12 +2284,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (345 reviews)
                       </p>
                     </div>
@@ -2319,13 +2305,13 @@ function Food() {
               <a
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://sharetrip.net/hotel-deals/dream-square-resort/HSTHC2af9b09dffee45ffa40afab34c3df7b0"
+                href="#/hotel-deals/dream-square-resort/HSTHC2af9b09dffee45ffa40afab34c3df7b0"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Dream Square Resort"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2347,14 +2333,14 @@ function Food() {
                       src="./public/369785529_305623735457322_3320508981205518508_n.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Dream Square Resort
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2368,12 +2354,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (324 reviews)
                       </p>
                     </div>
@@ -2464,32 +2450,32 @@ function Food() {
     </div>
   </section>
   {/* 8th */}
-  <section title="Our Tour Packages for You" className="mui-style-zwgclb">
-    <div className="mui-style-otbuk8">
-      <div className="MuiStack-root mui-style-1jea4dc">
+  <section title="Our Tour Packages for You" className="round-zwgclb">
+    <div className="round-otbuk8">
+      <div className="MuiStack-root round-1jea4dc">
         <div
-          className="MuiBox-root mui-style-1crpi21"
+          className="fst round-1crpi21"
           title="Our Tour Packages for You"
           description="Plan your dream gateway and choose from uncountable tour packages at ShareTrip. Book our holiday packages for the best deals on any international trip."
         >
           <div
-            className="MuiBox-root mui-style-1rmcaoa"
+            className="fst round-1rmcaoa"
             title="Our Tour Packages for You"
             description="Plan your dream gateway and choose from uncountable tour packages at ShareTrip. Book our holiday packages for the best deals on any international trip."
           >
-            <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+            <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
               Our Tour Packages for You
             </h2>
-            <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+            <p className="tripfst tripsec round-1swmuhe">
               Plan your dream gateway and choose from uncountable tour packages
               at ShareTrip. Book our holiday packages for the best deals on any
               international trip.
             </p>
           </div>
         </div>
-        <div className="MuiBox-root mui-style-epvm6" />
+        <div className="fst round-epvm6" />
       </div>
-      <div className="MuiBox-root mui-style-1f1q17n">
+      <div className="fst round-1f1q17n">
         <div className="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
           <div
             className="swiper-wrapper"
@@ -2506,10 +2492,10 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2214193%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2214193%22]&offset=0&limit=10"
               >
-                <div className="MuiBox-root mui-style-1q9dzeo" title="Bangkok">
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                <div className="fst round-1q9dzeo" title="Bangkok">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2530,14 +2516,14 @@ function Food() {
                       src="./public/Bangkok.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Bangkok
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2551,12 +2537,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (57 reviews)
                       </p>
                     </div>
@@ -2571,13 +2557,13 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2215854%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2215854%22]&offset=0&limit=10"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="MAAFUSHI ISLANDS"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2598,14 +2584,14 @@ function Food() {
                       src="./public/Maafushi.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       MAAFUSHI ISLANDS
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2619,12 +2605,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (29 reviews)
                       </p>
                     </div>
@@ -2639,10 +2625,10 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2211779%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2211779%22]&offset=0&limit=10"
               >
-                <div className="MuiBox-root mui-style-1q9dzeo" title="Kolkata ">
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                <div className="fst round-1q9dzeo" title="Kolkata ">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2664,14 +2650,14 @@ function Food() {
                       src="./public/Kolkata.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Kolkata{" "}
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2685,12 +2671,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         4.5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (97 reviews)
                       </p>
                     </div>
@@ -2705,13 +2691,13 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2212592%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2212592%22]&offset=0&limit=10"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Kuala Lumpur "
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2733,14 +2719,14 @@ function Food() {
                       src="./public/Kuala_Lumpur.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Kuala Lumpur{" "}
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2754,12 +2740,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (68 reviews)
                       </p>
                     </div>
@@ -2774,13 +2760,13 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2213533%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2213533%22]&offset=0&limit=10"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Singapore"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2802,14 +2788,14 @@ function Food() {
                       src="./public/Singapore.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Singapore
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2823,12 +2809,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (33 reviews)
                       </p>
                     </div>
@@ -2843,10 +2829,10 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2214432%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2214432%22]&offset=0&limit=10"
               >
-                <div className="MuiBox-root mui-style-1q9dzeo" title="Dubai">
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                <div className="fst round-1q9dzeo" title="Dubai">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2868,14 +2854,14 @@ function Food() {
                       src="./public/Dubai.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Dubai
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2889,12 +2875,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (36 reviews)
                       </p>
                     </div>
@@ -2909,13 +2895,13 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2212826%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2212826%22]&offset=0&limit=10"
               >
                 <div
-                  className="MuiBox-root mui-style-1q9dzeo"
+                  className="fst round-1q9dzeo"
                   title="Kathmandu"
                 >
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -2937,14 +2923,14 @@ function Food() {
                       src="./public/Kathamandu.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Kathmandu
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -2958,12 +2944,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         4
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (44 reviews)
                       </p>
                     </div>
@@ -2978,10 +2964,10 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2213494%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2213494%22]&offset=0&limit=10"
               >
-                <div className="MuiBox-root mui-style-1q9dzeo" title="Riyadh">
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                <div className="fst round-1q9dzeo" title="Riyadh">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -3003,14 +2989,14 @@ function Food() {
                       src="./public/Riyad1.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Riyadh
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -3024,12 +3010,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (77 reviews)
                       </p>
                     </div>
@@ -3044,10 +3030,10 @@ function Food() {
             >
               <a
                 target="_blank"
-                href="https://sharetrip.net/package-search?cityCodes=[%2210666%22]&offset=0&limit=10"
+                href="#/package-search?cityCodes=[%2210666%22]&offset=0&limit=10"
               >
-                <div className="MuiBox-root mui-style-1q9dzeo" title="Toronto ">
-                  <div className="stpromo-card__img_container MuiBox-root mui-style-g2ajxz">
+                <div className="fst round-1q9dzeo" title="Toronto ">
+                  <div className="stpromo-card__img_container fst round-g2ajxz">
                     <img
                       alt="card-image"
                       loading="lazy"
@@ -3069,14 +3055,14 @@ function Food() {
                       src="./public/Canada.jpeg"
                     />
                   </div>
-                  <div className="MuiBox-root mui-style-1xdhyk6">
+                  <div className="fst round-1xdhyk6">
                     <p
-                      className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap stpromo-card__title mui-style-1b6vhpw"
+                      className="tripfst tripsec MuiTypography-noWrap stpromo-card__title round-1b6vhpw"
                       fw="semiBold"
                     >
                       Toronto{" "}
                     </p>
-                    <div className="stpromo-card__rating_container MuiBox-root mui-style-dun6p3">
+                    <div className="stpromo-card__rating_container fst round-dun6p3">
                       <svg
                         width={24}
                         height={24}
@@ -3090,12 +3076,12 @@ function Food() {
                         />
                       </svg>
                       <p
-                        className="MuiTypography-root MuiTypography-body1 mui-style-2be5e6"
+                        className="tripfst tripsec round-2be5e6"
                         fw="bold"
                       >
                         5
                       </p>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1h22dky">
+                      <p className="tripfst tripsec round-1h22dky">
                         (16 reviews)
                       </p>
                     </div>
@@ -3186,42 +3172,42 @@ function Food() {
     </div>
   </section>
   {/* 9th */}
-  <div className="MuiBox-root mui-style-1256lgk">
+  <div className="fst round-1256lgk">
     <section
       title="Members can save on lifestyle"
-      className="mui-style-1im3alf"
+      className="round-1im3alf"
     >
-      <div className="mui-style-otbuk8">
-        <div className="MuiStack-root mui-style-1jea4dc">
+      <div className="round-otbuk8">
+        <div className="MuiStack-root round-1jea4dc">
           <div
-            className="MuiBox-root mui-style-1fgu9mo"
+            className="fst round-1fgu9mo"
             title="Members can save on lifestyle"
             description="Enjoy privileges such as exclusive flight prices, unbelievable discounts on thousands <br /> of hotels, and much more"
           >
             <div
-              className="MuiBox-root mui-style-ij6f1p"
+              className="fst round-ij6f1p"
               title="Members can save on lifestyle"
               description="Enjoy privileges such as exclusive flight prices, unbelievable discounts on thousands <br /> of hotels, and much more"
             >
-              <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+              <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
                 Members can save on lifestyle
               </h2>
-              <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+              <p className="tripfst tripsec round-1swmuhe">
                 Enjoy privileges such as exclusive flight prices, unbelievable
                 discounts on thousands <br /> of hotels, and much more
               </p>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-epvm6">
+          <div className="fst round-epvm6">
             <a
-              className="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeXLarge MuiButton-containedSizeXLarge MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeXLarge MuiButton-containedSizeXLarge mui-style-gps7u9"
+              className="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeXLarge MuiButton-containedSizeXLarge MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeXLarge MuiButton-containedSizeXLarge round-gps7u9"
               tabIndex={0}
               id=":R5adagjpmm:"
               profile="secondary"
-              href="https://sharetrip.net/hotel"
+              href="#/hotel"
             >
-              <span className="mui-style-1sjvzwv">Find Holiday Savings</span>
-              <span className="MuiTouchRipple-root mui-style-w0pj6f" />
+              <span className="round-1sjvzwv">Find Holiday Savings</span>
+              <span className="MuiTouchRipple-root round-w0pj6f" />
             </a>
           </div>
         </div>
@@ -3231,83 +3217,83 @@ function Food() {
   {/* 10th */}
   <section
     title="Top Domestic & International Routes"
-    className="mui-style-zwgclb"
+    className="round-zwgclb"
   >
-    <div className="mui-style-otbuk8">
-      <div className="MuiStack-root mui-style-1jea4dc">
+    <div className="round-otbuk8">
+      <div className="MuiStack-root round-1jea4dc">
         <div
-          className="MuiBox-root mui-style-1b3yz9y"
+          className="fst round-1b3yz9y"
           align="center"
           title="Top Domestic & International Routes"
           description="Make your next trip unforgettable with ShareTrip! From business class to economy class flights on international trips or domestic ones, choose from hundreds of airlines"
         >
           <div
-            className="MuiBox-root mui-style-1rmcaoa"
+            className="fst round-1rmcaoa"
             align="center"
             title="Top Domestic & International Routes"
             description="Make your next trip unforgettable with ShareTrip! From business class to economy class flights on international trips or domestic ones, choose from hundreds of airlines"
           >
-            <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+            <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
               Top Domestic &amp; International Routes
             </h2>
-            <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+            <p className="tripfst tripsec round-1swmuhe">
               Make your next trip unforgettable with ShareTrip! From business
               class to economy class flights on international trips or domestic
               ones, choose from hundreds of airlines
             </p>
           </div>
         </div>
-        <div className="MuiBox-root mui-style-epvm6" />
+        <div className="fst round-epvm6" />
       </div>
-      <div className="MuiBox-root mui-style-1u3xq0c">
+      <div className="fst round-1u3xq0c">
         <button
-          className="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium mui-style-7w58l4"
+          className="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium round-7w58l4"
           tabIndex={0}
           type="button"
           id=":R16jaijpmm:"
           profile="domestic"
         >
-          <span className="mui-style-1sjvzwv">Domestic</span>
-          <span className="MuiTouchRipple-root mui-style-w0pj6f" />
+          <span className="round-1sjvzwv">Domestic</span>
+          <span className="MuiTouchRipple-root round-w0pj6f" />
         </button>
         <button
-          className="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium mui-style-rxxg2y"
+          className="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium round-rxxg2y"
           tabIndex={0}
           type="button"
           id=":R1ajaijpmm:"
           profile="international"
         >
-          <span className="mui-style-1sjvzwv">International</span>
-          <span className="MuiTouchRipple-root mui-style-w0pj6f" />
+          <span className="round-1sjvzwv">International</span>
+          <span className="MuiTouchRipple-root round-w0pj6f" />
         </button>
       </div>
-      <div className="MuiBox-root mui-style-11m47ud">
-        <div className="MuiGrid-root MuiGrid-container mui-style-1d3bbye">
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 mui-style-1x2rkcr">
-            <div className="MuiBox-root mui-style-g59v3u">
+      <div className="fst round-11m47ud">
+        <div className="mild MuiGrid-container round-1d3bbye">
+          <div className="mild item col-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 round-1x2rkcr">
+            <div className="fst round-g59v3u">
               <a
-                className="mui-style-1y7as5b"
-                href="https://sharetrip.net/flight-routes/dhaka-dac-to-coxs-bazar-cxb/airfares-dac-cxb"
+                className="round-1y7as5b"
+                href="#/flight-routes/dhaka-dac-to-coxs-bazar-cxb/airfares-dac-cxb"
               />
-              <div className="MuiBox-root mui-style-1wk9spg">
-                <div className="MuiBox-root mui-style-d0z87y">
+              <div className="fst round-1wk9spg">
+                <div className="fst round-d0z87y">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Dhaka
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Hazrat Shahjalal International Airport
                   </p>
                 </div>
-                <div className="MuiBox-root mui-style-4ovhho">
-                  <div className="MuiBox-root mui-style-qosvr" />
-                  <div className="MuiBox-root mui-style-j1prg5">
-                    <div className="hoverBg MuiBox-root mui-style-zr3f17">
+                <div className="fst round-4ovhho">
+                  <div className="fst round-qosvr" />
+                  <div className="fst round-j1prg5">
+                    <div className="hoverBg fst round-zr3f17">
                       <svg
                         className="blueSVG"
                         width={11}
@@ -3334,17 +3320,17 @@ function Food() {
                       />
                     </svg>
                   </div>
-                  <div className="MuiBox-root mui-style-18ml4ve" />
+                  <div className="fst round-18ml4ve" />
                 </div>
-                <div className="MuiBox-root mui-style-6qpexb">
+                <div className="fst round-6qpexb">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Cox's Bazar
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Cox's Bazar Airport
@@ -3353,31 +3339,31 @@ function Food() {
               </div>
             </div>
           </div>
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 mui-style-1x2rkcr">
-            <div className="MuiBox-root mui-style-g59v3u">
+          <div className="mild item col-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 round-1x2rkcr">
+            <div className="fst round-g59v3u">
               <a
-                className="mui-style-1y7as5b"
-                href="https://sharetrip.net/flight-routes/dhaka-dac-to-jashore-jsr/airfares-dac-jsr"
+                className="round-1y7as5b"
+                href="#/flight-routes/dhaka-dac-to-jashore-jsr/airfares-dac-jsr"
               />
-              <div className="MuiBox-root mui-style-1wk9spg">
-                <div className="MuiBox-root mui-style-d0z87y">
+              <div className="fst round-1wk9spg">
+                <div className="fst round-d0z87y">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Dhaka
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Hazrat Shahjalal International Airport
                   </p>
                 </div>
-                <div className="MuiBox-root mui-style-4ovhho">
-                  <div className="MuiBox-root mui-style-qosvr" />
-                  <div className="MuiBox-root mui-style-j1prg5">
-                    <div className="hoverBg MuiBox-root mui-style-zr3f17">
+                <div className="fst round-4ovhho">
+                  <div className="fst round-qosvr" />
+                  <div className="fst round-j1prg5">
+                    <div className="hoverBg fst round-zr3f17">
                       <svg
                         className="blueSVG"
                         width={11}
@@ -3404,17 +3390,17 @@ function Food() {
                       />
                     </svg>
                   </div>
-                  <div className="MuiBox-root mui-style-18ml4ve" />
+                  <div className="fst round-18ml4ve" />
                 </div>
-                <div className="MuiBox-root mui-style-6qpexb">
+                <div className="fst round-6qpexb">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Jashore
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Jashore Airport
@@ -3423,31 +3409,31 @@ function Food() {
               </div>
             </div>
           </div>
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 mui-style-1x2rkcr">
-            <div className="MuiBox-root mui-style-g59v3u">
+          <div className="mild item col-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 round-1x2rkcr">
+            <div className="fst round-g59v3u">
               <a
-                className="mui-style-1y7as5b"
-                href="https://sharetrip.net/flight-routes/dhaka-dac-to-chattogram-cgp/airfares-dac-cgp"
+                className="round-1y7as5b"
+                href="#/flight-routes/dhaka-dac-to-chattogram-cgp/airfares-dac-cgp"
               />
-              <div className="MuiBox-root mui-style-1wk9spg">
-                <div className="MuiBox-root mui-style-d0z87y">
+              <div className="fst round-1wk9spg">
+                <div className="fst round-d0z87y">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Dhaka
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Hazrat Shahjalal International Airport
                   </p>
                 </div>
-                <div className="MuiBox-root mui-style-4ovhho">
-                  <div className="MuiBox-root mui-style-qosvr" />
-                  <div className="MuiBox-root mui-style-j1prg5">
-                    <div className="hoverBg MuiBox-root mui-style-zr3f17">
+                <div className="fst round-4ovhho">
+                  <div className="fst round-qosvr" />
+                  <div className="fst round-j1prg5">
+                    <div className="hoverBg fst round-zr3f17">
                       <svg
                         className="blueSVG"
                         width={11}
@@ -3474,17 +3460,17 @@ function Food() {
                       />
                     </svg>
                   </div>
-                  <div className="MuiBox-root mui-style-18ml4ve" />
+                  <div className="fst round-18ml4ve" />
                 </div>
-                <div className="MuiBox-root mui-style-6qpexb">
+                <div className="fst round-6qpexb">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Chattogram
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Shah Amanat International Airport
@@ -3493,31 +3479,31 @@ function Food() {
               </div>
             </div>
           </div>
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 mui-style-1x2rkcr">
-            <div className="MuiBox-root mui-style-g59v3u">
+          <div className="mild item col-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 round-1x2rkcr">
+            <div className="fst round-g59v3u">
               <a
-                className="mui-style-1y7as5b"
-                href="https://sharetrip.net/flight-routes/dhaka-dac-to-sylhet-zyl/airfares-dac-zyl"
+                className="round-1y7as5b"
+                href="#/flight-routes/dhaka-dac-to-sylhet-zyl/airfares-dac-zyl"
               />
-              <div className="MuiBox-root mui-style-1wk9spg">
-                <div className="MuiBox-root mui-style-d0z87y">
+              <div className="fst round-1wk9spg">
+                <div className="fst round-d0z87y">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Dhaka
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Hazrat Shahjalal International Airport
                   </p>
                 </div>
-                <div className="MuiBox-root mui-style-4ovhho">
-                  <div className="MuiBox-root mui-style-qosvr" />
-                  <div className="MuiBox-root mui-style-j1prg5">
-                    <div className="hoverBg MuiBox-root mui-style-zr3f17">
+                <div className="fst round-4ovhho">
+                  <div className="fst round-qosvr" />
+                  <div className="fst round-j1prg5">
+                    <div className="hoverBg fst round-zr3f17">
                       <svg
                         className="blueSVG"
                         width={11}
@@ -3544,17 +3530,17 @@ function Food() {
                       />
                     </svg>
                   </div>
-                  <div className="MuiBox-root mui-style-18ml4ve" />
+                  <div className="fst round-18ml4ve" />
                 </div>
-                <div className="MuiBox-root mui-style-6qpexb">
+                <div className="fst round-6qpexb">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Sylhet
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Osmany International Airport
@@ -3563,31 +3549,31 @@ function Food() {
               </div>
             </div>
           </div>
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 mui-style-1x2rkcr">
-            <div className="MuiBox-root mui-style-g59v3u">
+          <div className="mild item col-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 round-1x2rkcr">
+            <div className="fst round-g59v3u">
               <a
-                className="mui-style-1y7as5b"
-                href="https://sharetrip.net/flight-routes/dhaka-dac-to-barisal-bzl/airfares-dac-bzl"
+                className="round-1y7as5b"
+                href="#/flight-routes/dhaka-dac-to-barisal-bzl/airfares-dac-bzl"
               />
-              <div className="MuiBox-root mui-style-1wk9spg">
-                <div className="MuiBox-root mui-style-d0z87y">
+              <div className="fst round-1wk9spg">
+                <div className="fst round-d0z87y">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Dhaka
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Hazrat Shahjalal International Airport
                   </p>
                 </div>
-                <div className="MuiBox-root mui-style-4ovhho">
-                  <div className="MuiBox-root mui-style-qosvr" />
-                  <div className="MuiBox-root mui-style-j1prg5">
-                    <div className="hoverBg MuiBox-root mui-style-zr3f17">
+                <div className="fst round-4ovhho">
+                  <div className="fst round-qosvr" />
+                  <div className="fst round-j1prg5">
+                    <div className="hoverBg fst round-zr3f17">
                       <svg
                         className="blueSVG"
                         width={11}
@@ -3614,17 +3600,17 @@ function Food() {
                       />
                     </svg>
                   </div>
-                  <div className="MuiBox-root mui-style-18ml4ve" />
+                  <div className="fst round-18ml4ve" />
                 </div>
-                <div className="MuiBox-root mui-style-6qpexb">
+                <div className="fst round-6qpexb">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Barisal
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Barisal Airport
@@ -3633,31 +3619,31 @@ function Food() {
               </div>
             </div>
           </div>
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 mui-style-1x2rkcr">
-            <div className="MuiBox-root mui-style-g59v3u">
+          <div className="mild item col-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 round-1x2rkcr">
+            <div className="fst round-g59v3u">
               <a
-                className="mui-style-1y7as5b"
-                href="https://sharetrip.net/flight-routes/dhaka-dac-to-saidpur-spd/airfares-dac-spd"
+                className="round-1y7as5b"
+                href="#/flight-routes/dhaka-dac-to-saidpur-spd/airfares-dac-spd"
               />
-              <div className="MuiBox-root mui-style-1wk9spg">
-                <div className="MuiBox-root mui-style-d0z87y">
+              <div className="fst round-1wk9spg">
+                <div className="fst round-d0z87y">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Dhaka
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Hazrat Shahjalal International Airport
                   </p>
                 </div>
-                <div className="MuiBox-root mui-style-4ovhho">
-                  <div className="MuiBox-root mui-style-qosvr" />
-                  <div className="MuiBox-root mui-style-j1prg5">
-                    <div className="hoverBg MuiBox-root mui-style-zr3f17">
+                <div className="fst round-4ovhho">
+                  <div className="fst round-qosvr" />
+                  <div className="fst round-j1prg5">
+                    <div className="hoverBg fst round-zr3f17">
                       <svg
                         className="blueSVG"
                         width={11}
@@ -3684,17 +3670,17 @@ function Food() {
                       />
                     </svg>
                   </div>
-                  <div className="MuiBox-root mui-style-18ml4ve" />
+                  <div className="fst round-18ml4ve" />
                 </div>
-                <div className="MuiBox-root mui-style-6qpexb">
+                <div className="fst round-6qpexb">
                   <p
-                    className="MuiTypography-root MuiTypography-body1 hoverText mui-style-12xuhy5"
+                    className="tripfst tripsec hoverText round-12xuhy5"
                     fw="medium"
                   >
                     Saidpur
                   </p>
                   <p
-                    className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu"
+                    className="tripfst tripsec round-1xhsunu"
                     style={{ color: "#5A6573" }}
                   >
                     Saidpur Airport
@@ -3709,39 +3695,39 @@ function Food() {
   </section>
 
   {/* 11th */}
-  <section title="Your all-in-one Travel App" className="mui-style-13gz0ng">
-    <div className="mui-style-otbuk8">
-      <div className="MuiStack-root mui-style-1jea4dc">
+  <section title="Your all-in-one Travel App" className="round-13gz0ng">
+    <div className="round-otbuk8">
+      <div className="MuiStack-root round-1jea4dc">
         <div
-          className="MuiBox-root mui-style-1gdagn3"
+          className="fst round-1gdagn3"
           bgcolor="#F5F7FA linear-gradient(180deg, rgba(255, 255, 255, 0) 20.31%, #FFFFFF 100%);"
           title="Your all-in-one Travel App"
           description="Get flights, hotels, holidays and visa assistance in just a few taps. Enjoy real-time flight updates, schedules, travel info, play games, win trip coins and much more."
           align="center"
         >
           <div
-            className="MuiBox-root mui-style-2satdj"
+            className="fst round-2satdj"
             bgcolor="#F5F7FA linear-gradient(180deg, rgba(255, 255, 255, 0) 20.31%, #FFFFFF 100%);"
             title="Your all-in-one Travel App"
             description="Get flights, hotels, holidays and visa assistance in just a few taps. Enjoy real-time flight updates, schedules, travel info, play games, win trip coins and much more."
             align="center"
           >
-            <h2 className="MuiTypography-root MuiTypography-h2 mui-style-bxn3sk">
+            <h2 className="tripfst MuiTypography-h2 round-bxn3sk">
               Your all-in-one Travel App
             </h2>
-            <p className="MuiTypography-root MuiTypography-body1 mui-style-1swmuhe">
+            <p className="tripfst tripsec round-1swmuhe">
               Get flights, hotels, holidays and visa assistance in just a few
               taps. Enjoy real-time flight updates, schedules, travel info, play
               games, win trip coins and much more.
             </p>
           </div>
         </div>
-        <div className="MuiBox-root mui-style-epvm6" />
+        <div className="fst round-epvm6" />
       </div>
-      <div className="MuiBox-root mui-style-1kb3d3g" />
-      <div className="MuiBox-root mui-style-1wf2ck">
+      <div className="fst round-1kb3d3g" />
+      <div className="fst round-1wf2ck">
         <a target="_blank" href="https://apple.co/2Y0DdLx">
-          <div className="MuiBox-root mui-style-1mp66yw" title="App Store">
+          <div className="fst round-1mp66yw" title="App Store">
             <img
               alt="App Store"
               loading="lazy"
@@ -3761,9 +3747,9 @@ function Food() {
             />
           </div>
         </a>
-        <div className="MuiBox-root mui-style-14gmdfk">
+        <div className="fst round-14gmdfk">
           <div style={{ transform: "none" }}>
-            <div className="MuiBox-root mui-style-bnli0e">
+            <div className="fst round-bnli0e">
               <img
                 alt="QR Code"
                 title="QR Code"
@@ -3786,7 +3772,7 @@ function Food() {
           </div>
         </div>
         <a target="_blank" href="https://tinyurl.com/y62lftzl">
-          <div className="MuiBox-root mui-style-1mp66yw" title="Play Store">
+          <div className="fst round-1mp66yw" title="Play Store">
             <img
               alt="Play Store"
               loading="lazy"
@@ -3808,7 +3794,7 @@ function Food() {
         </a>
       </div>
       <div
-        className="MuiBox-root mui-style-13st6e8"
+        className="fst round-13st6e8"
         style={{
           backgroundImage:
             "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 60.31%, #FFF 100%), url(https://cdn.sharetrip.net/sharetrip_net/production/public/images/sample-images/App-Screens.png)"
@@ -3818,12 +3804,12 @@ function Food() {
   </section>
   {/* 12th */}
   <footer>
-    <div className="MuiBox-root mui-style-1w55zgx">
-      <div className="mui-style-otbuk8">
-        <div className="MuiBox-root mui-style-1jau6dk">
-          <div className="MuiBox-root mui-style-1wmb3o9">
-            <a href="https://sharetrip.net/">
-              <div className="MuiBox-root mui-style-suhy61">
+    <div className="fst round-1w55zgx">
+      <div className="round-otbuk8">
+        <div className="fst round-1jau6dk">
+          <div className="fst round-1wmb3o9">
+            <a href="#/">
+              <div className="fst round-suhy61">
                 <svg
                   width={140}
                   height={40}
@@ -3846,56 +3832,56 @@ function Food() {
                 </svg>
               </div>
             </a>
-            <p className="MuiTypography-root MuiTypography-body1 mui-style-yh2n3p">
-              <a href="https://sharetrip.net/">ShareTrip</a> is the country’s
+            <p className="tripfst tripsec round-yh2n3p">
+              <a href="#/">ShareTrip</a> is the country’s
               first and leading online travel aggregator (OTA). Since our
               inception, we have dreamt of making travel easier for people of
               all ages and we move forward to make that dream into reality.
             </p>
           </div>
-          <div className="MuiBox-root mui-style-1454734">
-            <div className="MuiBox-root mui-style-1wmb3o9">
-              <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+          <div className="fst round-1454734">
+            <div className="fst round-1wmb3o9">
+              <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                 Explore
               </h5>
-              <ul className="mui-style-pj8aht">
-                <div className="MuiBox-root mui-style-1l19kgc">
-                  <li className="mui-style-hs880s">
+              <ul className="round-pj8aht">
+                <div className="fst round-1l19kgc">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/about"
+                      className="round-1n0ue6j"
+                      href="#/about"
                     >
                       About Us
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/terms"
+                      className="round-1n0ue6j"
+                      href="#/terms"
                     >
                       Terms &amp; Conditions
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/faq"
+                      className="round-1n0ue6j"
+                      href="#/faq"
                     >
                       FAQ
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/hotel-sitemap"
+                      className="round-1n0ue6j"
+                      href="#/hotel-sitemap"
                     >
                       Hotel Sitemap
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/medical-tourism-terms"
+                      className="round-1n0ue6j"
+                      href="#/medical-tourism-terms"
                     >
                       Medical Tourism
                     </a>
@@ -3903,40 +3889,40 @@ function Food() {
                 </div>
               </ul>
             </div>
-            <div className="MuiBox-root mui-style-1wmb3o9">
-              <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+            <div className="fst round-1wmb3o9">
+              <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                 Services
               </h5>
-              <ul className="mui-style-pj8aht">
-                <div className="MuiBox-root mui-style-1l19kgc">
-                  <li className="mui-style-hs880s">
+              <ul className="round-pj8aht">
+                <div className="fst round-1l19kgc">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/flight"
+                      className="round-1n0ue6j"
+                      href="#/flight"
                     >
                       Flight
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/hotel"
+                      className="round-1n0ue6j"
+                      href="#/hotel"
                     >
                       Hotel
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/holiday"
+                      className="round-1n0ue6j"
+                      href="#/holiday"
                     >
                       Holiday
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/visa"
+                      className="round-1n0ue6j"
+                      href="#/visa"
                     >
                       Visa
                     </a>
@@ -3945,41 +3931,41 @@ function Food() {
               </ul>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1454734">
-            <div className="MuiBox-root mui-style-1wmb3o9">
-              <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+          <div className="fst round-1454734">
+            <div className="fst round-1wmb3o9">
+              <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                 Useful Links
               </h5>
-              <ul className="mui-style-pj8aht">
-                <div className="MuiBox-root mui-style-1l19kgc">
-                  <li className="mui-style-hs880s">
+              <ul className="round-pj8aht">
+                <div className="fst round-1l19kgc">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/travel-guide"
+                      className="round-1n0ue6j"
+                      href="#/travel-guide"
                     >
                       Travel Guide
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/travel-guide/post/travel-advisory-2022"
+                      className="round-1n0ue6j"
+                      href="#/travel-guide/post/travel-advisory-2022"
                     >
                       Travel Advisory
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/visa-guide"
+                      className="round-1n0ue6j"
+                      href="#/visa-guide"
                     >
                       Visa Guide
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/visa"
+                      className="round-1n0ue6j"
+                      href="#/visa"
                     >
                       Visa Application
                     </a>
@@ -3987,33 +3973,33 @@ function Food() {
                 </div>
               </ul>
             </div>
-            <div className="MuiBox-root mui-style-1wmb3o9">
-              <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+            <div className="fst round-1wmb3o9">
+              <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                 Promotions
               </h5>
-              <ul className="mui-style-pj8aht">
-                <div className="MuiBox-root mui-style-1l19kgc">
-                  <li className="mui-style-hs880s">
+              <ul className="round-pj8aht">
+                <div className="fst round-1l19kgc">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
+                      className="round-1n0ue6j"
                       href="https://news.sharetrip.net/"
                     >
                       News
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/promotions"
+                      className="round-1n0ue6j"
+                      href="#/promotions"
                     >
                       Promotions
                     </a>
                   </li>
-                  <li className="mui-style-hs880s">
+                  <li className="round-hs880s">
                     <a
                       title="Value Added Services"
-                      className="mui-style-1n0ue6j"
-                      href="https://sharetrip.net/promotions/category/value-added-service"
+                      className="round-1n0ue6j"
+                      href="#/promotions/category/value-added-service"
                     >
                       VAS
                     </a>
@@ -4022,122 +4008,122 @@ function Food() {
               </ul>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1wmb3o9">
-            <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+          <div className="fst round-1wmb3o9">
+            <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
               We accept
             </h5>
-            <ul className="mui-style-8prtmw">
-              <li className="mui-style-1s742uu">
+            <ul className="round-8prtmw">
+              <li className="round-1s742uu">
                 <img
                   src="./public/amexCard.svg"
                   alt="amexCard"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/visaCard.svg"
                   alt="visaCard"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/masterCard.svg"
                   alt="masterCard"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/bkash.svg"
                   alt="bkash"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/dbbl.svg"
                   alt="dbbl"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/nagad.svg"
                   alt="nagad"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/upay.svg"
                   alt="upay"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/tap.svg"
                   alt="tap"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/ok.svg"
                   alt="okWallet"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
-              <li className="mui-style-1s742uu">
+              <li className="round-1s742uu">
                 <img
                   src="./public/dinners-club.svg"
                   alt="dinners-club"
-                  className="mui-style-r91awh"
+                  className="round-r91awh"
                 />
               </li>
             </ul>
           </div>
         </div>
-        <address className="mui-style-1uk1gs8">
-          <div className="MuiBox-root mui-style-1i6fh24">
-            <div className="MuiBox-root mui-style-wjyxmw">
-              <div className="MuiBox-root mui-style-1wmb3o9">
-                <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+        <address className="round-1uk1gs8">
+          <div className="fst round-1i6fh24">
+            <div className="fst round-wjyxmw">
+              <div className="fst round-1wmb3o9">
+                <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                   Contact Us
                 </h5>
-                <div className="MuiBox-root mui-style-1opfyp1">
-                  <div className="MuiBox-root mui-style-0">
+                <div className="fst round-1opfyp1">
+                  <div className="fst round-0">
                     <a
-                      className="mui-style-6fnvkp"
+                      className="round-6fnvkp"
                       href="mailto:ask@sharetrip.net"
                     >
-                      <span className="mui-style-1n9y8h7">Email:</span>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu">
+                      <span className="round-1n9y8h7">Email:</span>
+                      <p className="tripfst tripsec round-1xhsunu">
                         ask@sharetrip.net
                       </p>
                     </a>
-                    <a className="mui-style-6fnvkp" href="tel:+880 9617 617617">
-                      <span className="mui-style-1n9y8h7">Phone:</span>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu">
+                    <a className="round-6fnvkp" href="tel:+880 9617 617617">
+                      <span className="round-1n9y8h7">Phone:</span>
+                      <p className="tripfst tripsec round-1xhsunu">
                         +880 9617 617617
                       </p>
                     </a>
                     <a
-                      className="mui-style-6fnvkp"
+                      className="round-6fnvkp"
                       href="https://api.whatsapp.com/send/?phone=8801958391164&text&type=phone_number&app_absent=0"
                     >
-                      <span className="mui-style-1n9y8h7">WhatsApp:</span>
-                      <p className="MuiTypography-root MuiTypography-body1 mui-style-1xhsunu">
+                      <span className="round-1n9y8h7">WhatsApp:</span>
+                      <p className="tripfst tripsec round-1xhsunu">
                         Message us
                       </p>
                     </a>
                   </div>
-                  <div className="MuiBox-root mui-style-1si5xjn">
+                  <div className="fst round-1si5xjn">
                     <a
                       target="_blank"
-                      className="mui-style-1gavowu"
+                      className="round-1gavowu"
                       href="https://www.facebook.com/sharetrip.net"
                     >
                       <svg
@@ -4167,7 +4153,7 @@ function Food() {
                     </a>
                     <a
                       target="_blank"
-                      className="mui-style-1gavowu"
+                      className="round-1gavowu"
                       href="http://m.me/sharetrip.net"
                     >
                       <svg
@@ -4185,7 +4171,7 @@ function Food() {
                     </a>
                     <a
                       target="_blank"
-                      className="mui-style-1gavowu"
+                      className="round-1gavowu"
                       href="https://twitter.com/ShareTripLtd"
                     >
                       <svg
@@ -4215,7 +4201,7 @@ function Food() {
                     </a>
                     <a
                       target="_blank"
-                      className="mui-style-1gavowu"
+                      className="round-1gavowu"
                       href="https://www.instagram.com/sharetripapp"
                     >
                       <svg
@@ -4233,7 +4219,7 @@ function Food() {
                     </a>
                     <a
                       target="_blank"
-                      className="mui-style-1gavowu"
+                      className="round-1gavowu"
                       href="https://www.youtube.com/channel/UCWqCNCLZXgXIjRLxWrg_8gg"
                     >
                       <svg
@@ -4263,7 +4249,7 @@ function Food() {
                     </a>
                     <a
                       target="_blank"
-                      className="mui-style-1gavowu"
+                      className="round-1gavowu"
                       href="https://www.linkedin.com/company/sharetrip"
                     >
                       <svg
@@ -4282,11 +4268,11 @@ function Food() {
                   </div>
                 </div>
               </div>
-              <div className="MuiBox-root mui-style-1wmb3o9">
-                <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+              <div className="fst round-1wmb3o9">
+                <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                   Dhaka Office
                 </h5>
-                <p className="MuiTypography-root MuiTypography-body1 mui-style-t5db1x">
+                <p className="tripfst tripsec round-t5db1x">
                   Rangs Pearl Tower, 4th Floor,
                   <br />
                   House no. 76, Road 12, Block E, Banani,
@@ -4294,7 +4280,7 @@ function Food() {
                 </p>
                 <a
                   target="_blank"
-                  className="mui-style-1uxdgwa"
+                  className="round-1uxdgwa"
                   href="https://goo.gl/maps/n6Hh2vqqY8RLp1fX6"
                 >
                   <svg
@@ -4322,17 +4308,17 @@ function Food() {
                   View Map
                 </a>
               </div>
-              <div className="MuiBox-root mui-style-1wmb3o9">
-                <h5 className="MuiTypography-root MuiTypography-h5 mui-style-3cmdc2">
+              <div className="fst round-1wmb3o9">
+                <h5 className="tripfst MuiTypography-h5 round-3cmdc2">
                   Chattogram Office
                 </h5>
-                <p className="MuiTypography-root MuiTypography-body1 mui-style-t5db1x">
+                <p className="tripfst tripsec round-t5db1x">
                   BM Height 5th Floor, <br /> 318 Sheikh Mujib Road. <br />{" "}
                   Chattogram 4100, Bangladesh
                 </p>
                 <a
                   target="_blank"
-                  className="mui-style-1uxdgwa"
+                  className="round-1uxdgwa"
                   href="https://goo.gl/maps/GhtpTrDWUCp9yFf37"
                 >
                   <svg
@@ -4363,19 +4349,19 @@ function Food() {
             </div>
           </div>
         </address>
-        <div className="MuiBox-root mui-style-13kroyq">
-          <div className="MuiBox-root mui-style-1f8256p">
-            <h6 className="MuiTypography-root MuiTypography-h6 mui-style-afcesr">
+        <div className="fst round-13kroyq">
+          <div className="fst round-1f8256p">
+            <h6 className="tripfst MuiTypography-h6 round-afcesr">
               Accredited Member
             </h6>
-            <div className="MuiBox-root mui-style-62dbs7">
-              <div className="MuiBox-root mui-style-1xdhyk6">
-                <img src="./public/basis.svg" className="mui-style-0" />
+            <div className="fst round-62dbs7">
+              <div className="fst round-1xdhyk6">
+                <img src="./public/basis.svg" className="round-0" />
               </div>
-              <div className="MuiBox-root mui-style-1xdhyk6">
-                <img src="./public/e-cab.svg" className="mui-style-0" />
+              <div className="fst round-1xdhyk6">
+                <img src="./public/e-cab.svg" className="round-0" />
               </div>
-              <div className="MuiBox-root mui-style-1xdhyk6">
+              <div className="fst round-1xdhyk6">
                 <svg
                   width={43}
                   height={28}
@@ -4558,61 +4544,61 @@ function Food() {
               </div>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1f8256p">
-            <h6 className="MuiTypography-root MuiTypography-h6 mui-style-afcesr">
+          <div className="fst round-1f8256p">
+            <h6 className="tripfst MuiTypography-h6 round-afcesr">
               Approved Agent
             </h6>
-            <div className="MuiBox-root mui-style-62dbs7">
-              <div className="MuiBox-root mui-style-1xdhyk6">
+            <div className="fst round-62dbs7">
+              <div className="fst round-1xdhyk6">
                 <img
                   src="./public/biman-bangladesh-airlines.svg"
-                  className="mui-style-0"
+                  className="round-0"
                 />
               </div>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1f8256p">
-            <h6 className="MuiTypography-root MuiTypography-h6 mui-style-afcesr">
+          <div className="fst round-1f8256p">
+            <h6 className="tripfst MuiTypography-h6 round-afcesr">
               Verified by
             </h6>
-            <div className="MuiBox-root mui-style-62dbs7">
-              <div className="MuiBox-root mui-style-1xdhyk6">
-                <img src="./public/comodo.svg" className="mui-style-0" />
+            <div className="fst round-62dbs7">
+              <div className="fst round-1xdhyk6">
+                <img src="./public/comodo.svg" className="round-0" />
               </div>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1f8256p">
-            <h6 className="MuiTypography-root MuiTypography-h6 mui-style-afcesr">
+          <div className="fst round-1f8256p">
+            <h6 className="tripfst MuiTypography-h6 round-afcesr">
               Authorised by
             </h6>
-            <div className="MuiBox-root mui-style-62dbs7">
-              <div className="MuiBox-root mui-style-1xdhyk6">
-                <img src="./public/iata.svg" className="mui-style-0" />
+            <div className="fst round-62dbs7">
+              <div className="fst round-1xdhyk6">
+                <img src="./public/iata.svg" className="round-0" />
               </div>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1f8256p">
-            <h6 className="MuiTypography-root MuiTypography-h6 mui-style-afcesr">
+          <div className="fst round-1f8256p">
+            <h6 className="tripfst MuiTypography-h6 round-afcesr">
               Our Partners
             </h6>
-            <div className="MuiBox-root mui-style-62dbs7">
+            <div className="fst round-62dbs7">
               <a
                 target="_blank"
-                className="mui-style-0"
+                className="round-0"
                 href="https://www.google.com/partners/agency?id=9312910745"
               >
-                <img src="./public/google.svg" className="mui-style-0" />
+                <img src="./public/google.svg" className="round-0" />
               </a>
             </div>
           </div>
-          <div className="MuiBox-root mui-style-1f8256p">
-            <h6 className="MuiTypography-root MuiTypography-h6 mui-style-afcesr">
+          <div className="fst round-1f8256p">
+            <h6 className="tripfst MuiTypography-h6 round-afcesr">
               Registered at
             </h6>
-            <div className="MuiBox-root mui-style-62dbs7">
+            <div className="fst round-62dbs7">
               <a
                 target="_blank"
-                className="mui-style-0"
+                className="round-0"
                 href="https://www.dnb.com/business-directory/company-profiles.sharetrip_limited.6fee47d78892853d5adfe3cc2b6c2502.html"
               >
                 <svg
@@ -4795,43 +4781,43 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className="MuiBox-root mui-style-skd52r">
-          <div className="MuiBox-root mui-style-1xdhyk6">
-            <ul className="mui-style-1lvvcrm">
-              <li className="mui-style-1gobi6e">
-                <a className="mui-style-9micb7" href="tel:+8809617617617">
+        <div className="fst round-skd52r">
+          <div className="fst round-1xdhyk6">
+            <ul className="round-1lvvcrm">
+              <li className="round-1gobi6e">
+                <a className="round-9micb7" href="tel:+8809617617617">
                   Support Center
                 </a>
               </li>
-              <li className="mui-style-1gobi6e">
+              <li className="round-1gobi6e">
                 <a
-                  className="mui-style-9micb7"
-                  href="https://sharetrip.net/payment-security"
+                  className="round-9micb7"
+                  href="#/payment-security"
                 >
                   Payment Security
                 </a>
               </li>
-              <li className="mui-style-1gobi6e">
+              <li className="round-1gobi6e">
                 <a
-                  className="mui-style-9micb7"
-                  href="https://sharetrip.net/privacy"
+                  className="round-9micb7"
+                  href="#/privacy"
                 >
                   Privacy Policy
                 </a>
               </li>
-              <li className="mui-style-1gobi6e">
+              <li className="round-1gobi6e">
                 <a
-                  className="mui-style-9micb7"
-                  href="https://sharetrip.net/emifaq"
+                  className="round-9micb7"
+                  href="#/emifaq"
                 >
                   EMI
                 </a>
               </li>
             </ul>
           </div>
-          <p className="MuiTypography-root MuiTypography-body1 mui-style-1o0f2ej">
+          <p className="tripfst tripsec round-1o0f2ej">
             Copyright © {/* */}2023{/* */}.{" "}
-            <a href="https://sharetrip.net/">ShareTrip</a>. All rights reserved.
+            <a href="#/">ShareTrip</a>. All rights reserved.
           </p>
         </div>
       </div>

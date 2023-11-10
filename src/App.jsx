@@ -9,6 +9,7 @@ library.add(faCheck, faTimes);
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import AllPartMarge from './Components/Firstpart/AllPartMarge';
+import Login from './Components/login/login';
 
 
 
@@ -20,8 +21,8 @@ function App() {
     <>
    <Routes>
    <Route path='/' element={<AllPartMarge />}></Route>
-   {/* <Route path='/logIn' element={<Login />}></Route>
-   <Route path='/adminDeshBoard' element={<AdminDeshBoard />}></Route>
+   <Route path='/logIn' element={<Login />}></Route>
+   {/* <Route path='/adminDeshBoard' element={<AdminDeshBoard />}></Route>
    <Route path='/adminSideBar' element={<AdminSideBar />}></Route>
    <Route path='/allTableList' element={<AllTableList />}></Route>
    <Route path='/allFoodList' element={<AllFoodList />}></Route>
